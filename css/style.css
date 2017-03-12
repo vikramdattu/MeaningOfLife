@@ -1,0 +1,33 @@
+html,
+body { 
+	background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #222222;
+    color: #ffffff;
+}
+.page {
+	padding-top: 25%;
+	padding-bottom: 25%;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.contents1 {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    -webkit-tap-highlight-color: black;
+}
+.contents2 {
+    display: none;
+    vertical-align: bottom;
+    text-align: center;
+    -webkit-tap-highlight-color: black;
+}
+#content-text {
+    font-weight: bold;
+    font-size: 1em;
+}
